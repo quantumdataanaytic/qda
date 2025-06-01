@@ -1,6 +1,4 @@
-# Save the README content into a markdown file so the user can download it
 
-readme_content = """<!-- Profile README for QDA - Quantum Data Analytics -->
 
 <h1 align="center">QDA - Quantum Data Analytics</h1>
 <p align="center">
