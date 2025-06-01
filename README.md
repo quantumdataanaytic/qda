@@ -1,6 +1,4 @@
-# Update the README to reflect a proper company bio instead of a project showcase
 
-readme_company_bio = """<!-- GitHub Profile Bio for QDA - Quantum Data Analytics -->
 
 <h1 align="center">QDA - Quantum Data Analytics</h1>
 <p align="center">
@@ -74,12 +72,3 @@ We’re always excited to work on innovative projects and offer data-driven solu
 
 ---
 
-⭐ _Star this profile to support QDA’s mission to make data work for everyone._
-"""
-
-# Save updated content
-readme_company_bio_path = "/mnt/data/README_QDA_Bio.md"
-with open(readme_company_bio_path, "w") as f:
-    f.write(readme_company_bio)
-
-readme_company_bio_path
