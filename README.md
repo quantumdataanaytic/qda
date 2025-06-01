@@ -1,4 +1,6 @@
+# Update the README to reflect a proper company bio instead of a project showcase
 
+readme_company_bio = """<!-- GitHub Profile Bio for QDA - Quantum Data Analytics -->
 
 <h1 align="center">QDA - Quantum Data Analytics</h1>
 <p align="center">
@@ -12,29 +14,33 @@
 
 ---
 
-## 🚀 About Us
+## 🌐 About QDA
 
-**Quantum Data Analytics (QDA)** is your trusted partner in transforming raw data into powerful business insights. We specialize in:
-- Data Analysis & Visualization
-- Business Intelligence
-- Predictive Modeling
-- Data Automation & Reporting
+**Quantum Data Analytics (QDA)** is a South Africa-based data analytics company focused on helping individuals, businesses, and organizations unlock the full potential of their data.
 
-> At QDA, we believe **clarity is power**, and data clarity leads to better decisions.
+At QDA, we transform raw information into clear, actionable insights. We aim to make data **simple, accessible, and impactful** — because **clarity is power**.
+
+### What We Do
+
+- 📊 Data Analysis & Visualization  
+- 📈 Business Intelligence Reporting  
+- 🤖 Predictive Modeling & Machine Learning  
+- 🧠 Decision Support Systems  
+- ⚙️ Data Automation & Integration  
 
 ---
 
-## 👨‍💻 Founder
+## 👨‍💼 Founder & Contact
 
-- **Name:** Katlego Mashego  
+- **Founder:** Katlego Mashego  
 - **Email:** [katlegomashego357@gmail.com](mailto:katlegomashego357@gmail.com)  
+- **GitHub:** [@katlego357](https://github.com/katlego357)  
+- **LinkedIn:** Coming Soon  
 - **Location:** South Africa  
-- **LinkedIn:** [Coming Soon]  
-- **GitHub:** [@katlego357](https://github.com/katlego357)
 
 ---
 
-## 🛠️ Skills & Tools
+## 🛠️ Skills & Technologies
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,r,sql,pandas,numpy,matplotlib,seaborn,tableau,powerbi,excel,git,github,linux" /><br>
@@ -43,7 +49,7 @@
 
 ---
 
-## 📊 GitHub Stats & Contributions
+## 📊 GitHub Presence
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=katlego357&show_icons=true&theme=radical" />
@@ -56,38 +62,24 @@
 
 ---
 
-## 📈 Contributions
+## 📬 Let's Collaborate
 
-- ✅ **Commits:** Daily & consistent contributions
-- 🔃 **Pull Requests:** Collaborative development and open-source contributions
-- 🧩 **Projects:** Real-world applications of data analytics, dashboards & pipelines
-- 📂 **Repositories:** Explore [My GitHub Repos »](https://github.com/katlego357?tab=repositories)
+We’re always excited to work on innovative projects and offer data-driven solutions. Reach out for:
+- 📞 Consultations
+- 🤝 Partnerships
+- 💼 Freelance & Contracts
+- 🧪 Research Projects
 
----
-
-## 🌟 Featured Projects
-
-| Project | Description | Tech Stack |
-|--------|-------------|------------|
-| **InsightHub** | Interactive dashboard for business KPIs | Python, Plotly, Dash, SQL |
-| **RetailPredict** | Demand forecasting for retail products | Python, scikit-learn, pandas |
-| **PowerBI Reports** | Interactive reports for clients | Power BI, DAX, Excel |
+📧 [katlegomashego357@gmail.com](mailto:katlegomashego357@gmail.com)
 
 ---
 
-## 📬 Let's Connect
-
-Feel free to reach out for collaborations, consultations, or tech chats!
-
-📧 Email: [katlegomashego357@gmail.com](mailto:katlegomashego357@gmail.com)
-
----
-
-⭐ _Star this repository if you like what we do at QDA!_
+⭐ _Star this profile to support QDA’s mission to make data work for everyone._
 """
 
-readme_path = "/mnt/data/README_QDA.md"
-with open(readme_path, "w") as f:
-    f.write(readme_content)
+# Save updated content
+readme_company_bio_path = "/mnt/data/README_QDA_Bio.md"
+with open(readme_company_bio_path, "w") as f:
+    f.write(readme_company_bio)
 
-readme_path
+readme_company_bio_path
